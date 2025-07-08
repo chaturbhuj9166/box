@@ -1,0 +1,89 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 20px 20px 0px 0px ;
+    position: absolute;
+    top: 30px;
+
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border-radius: 30% 30% 20px 20px;
+    position: absolute;
+    top: 150px;
+    
+}
+.box3{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 230px;
+    
+
+}
+.prents{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.back{
+  height: 300px;
+  width: 250px;
+  background-color: black;
+  position: absolute;
+  top: 500px;
+  bottom: 10px;
+}
+
+.triangle-up{
+    height: 0;
+    width: 0;
+    border-left: 55px solid transparent;
+	border-right: 55px solid transparent ;
+    border-bottom: 110px solid red;
+     
+    position: absolute;
+    top: 520px;
+    right:610px ;
+    
+}
+
+.triangle{
+     height: 0;
+    width: 0;
+    border-left: 55px solid transparent;
+	border-right: 55px solid transparent ;
+     border-bottom: 110px solid greenyellow;
+    margin: auto;
+    position: absolute;
+    right: 610px;
+    top: 600px;
+    
+}
+.triangle2{
+     height: 0;
+    width: 0;
+    border-left: 55px solid transparent;
+	border-right: 55px solid transparent ;
+     border-bottom: 110px solid blue;
+    margin: auto;
+    position: absolute;
+   top: 670px;
+   left: 610px;
+    
+
+}
+.prents2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.box{
+    height: 150px;
+    
+}
